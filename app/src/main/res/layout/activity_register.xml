@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:fillViewport="true">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Register"
+    android:background="@drawable/voting"
+    android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tvHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textColor="#FFF"
+            android:textSize="24sp"
+            android:layout_marginStart="100dp" />
+
+
+    <EditText
+            android:id="@+id/edtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:layout_marginStart="95dp"
+            android:background="@drawable/edit_text"
+            android:inputType="textPersonName"
+            android:hint="Enter your name"
+            android:gravity="center_horizontal"
+            android:textColorHint="#FFF"
+            app:layout_constraintTop_toBottomOf="@+id/tvHeading" />
+
+        <EditText
+            android:id="@+id/edtSurname"
+            android:layout_marginStart="95dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:background="@drawable/edit_text"
+            android:inputType="textPersonName"
+            android:hint="Enter your surname"
+            android:gravity="center_horizontal"
+            android:textColorHint="#FFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edtName" />
+
+        <EditText
+            android:id="@+id/edtIdNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:ems="10"
+            android:layout_marginStart="95dp"
+            android:background="@drawable/edit_text"
+            android:inputType="number"
+            android:hint="Enter your ID number"
+            android:gravity="center_horizontal"
+            android:textColorHint="#FFF" />
+
+        <EditText
+            android:id="@+id/edtStudentNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:ems="10"
+            android:layout_marginStart="95dp"
+            android:background="@drawable/edit_text"
+            android:inputType="number"
+            android:hint="Enter your student number"
+            android:gravity="center_horizontal"
+            android:textColorHint="#FFF" />
+
+
+        <Spinner
+            android:id="@+id/spInstitution"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="85dp"
+            android:background="@drawable/edit_text" />
+    <Spinner
+        android:id="@+id/spCampus"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="85dp"
+        android:background="@drawable/edit_text"
+        android:textColor="#FFF"/>
+
+        <Spinner
+            android:id="@+id/spGender"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="85dp"
+            android:background="@drawable/edit_text"
+            android:textColor="#FFF"/>
+
+        <Spinner
+            android:id="@+id/spFaculty"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="85dp"
+            android:background="@drawable/edit_text"
+            android:textColor="#FFF" />
+
+        <Spinner
+            android:id="@+id/spDepart"
+            android:layout_width="250dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text"
+            android:layout_marginStart="85dp"
+            android:textColor="#FFF"/>
+        <Spinner
+            android:id="@+id/spYear"
+            android:layout_width="250dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text"
+            android:layout_marginStart="85dp"
+            android:textColor="#FFF"/>
+
+    <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:ems="10"
+            android:textColorHint="#FFF"
+            android:hint="Enter Your Email"
+            android:layout_marginStart="95dp"
+            android:background="@drawable/edit_text"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginStart="95dp"
+            android:textColorHint="#FFF"
+            android:ems="10"
+            android:hint="Enter Your Password"
+            android:background="@drawable/edit_text"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edtEmail" />
+
+        <EditText
+            android:id="@+id/edtRePassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:layout_marginStart="95dp"
+            android:background="@drawable/edit_text"
+            android:inputType="textPassword"
+            android:hint="Please confirm password"
+            android:textColorHint="#FFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edtPassword" />
+
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:text="Cancel"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="0.157"
+                android:background="@drawable/button_2"/>
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="112dp"
+                android:background="@drawable/button_1"
+                android:text="Submit"
+                android:layout_marginStart="25dp" />
+
+        </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

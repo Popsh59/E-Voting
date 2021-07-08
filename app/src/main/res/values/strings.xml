@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">E-Voting</string>
+
+    <string-array name="instu">
+        <item>Select institution</item>
+        <item>Central University Of Technology</item>
+    </string-array>
+
+    <string-array name="year">
+        <item>Select year</item>
+        <item>1st</item>
+        <item>2nd</item>
+        <item>3rd</item>
+        <item>4th</item>
+        <item>Masters</item>
+        <item>PhD</item>
+    </string-array>
+    <string-array name="faculty">
+        <item>Faculty of Engineering, Built Environment and Information Technology</item>
+        <item>Faculty of Health and Environmental Sciences</item>
+        <item>Faculty of Humanities</item>
+        <item>Faculty of Management Sciences</item>
+    </string-array>
+
+    <string-array name="engineering">
+        <item>Select department</item>
+        <item>Built Environment</item>
+        <item>Civil Engineering</item>
+        <item>Electrical, Electronic and Computer Engineering</item>
+        <item>Information Technology</item>
+        <item>Mathematics and Physical Sciences</item>
+        <item>Mechanical and Mechatronic Engineering</item>
+    </string-array>
+
+    <string-array name="humanities">
+        <item>Select department</item>
+        <item>Communication Sciences</item>
+        <item>Design and Studio Art</item>
+        <item>Language and Social Sciences Education</item>
+        <item>Mathematics, Science and Technology Education</item>
+        <item>Post Graduate Studies in Education</item>
+    </string-array>
+
+    <string-array name="management_sciences">
+        <item>Select department</item>
+        <item>Accounting and Auditing</item>
+        <item>Business Management</item>
+        <item>Business Support Studies</item>
+        <item>Government Management</item>
+        <item>Hospitality Management</item>
+        <item>Tourism and Event Management</item>
+    </string-array>
+
+    <string-array name="health">
+        <item>Select department</item>
+        <item>Agriculture</item>
+        <item>Clinical Sciences</item>
+        <item>Health Sciences</item>
+        <item>Life Sciences</item>
+    </string-array>
+
+
+    <string-array name="campus">
+        <item>Select campus</item>
+        <item>Welkom</item>
+        <item>Bloemfontein</item>
+    </string-array>
+
+
+    <string-array name="gender">
+        <item>Select gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="party">
+        <item>Sasco</item>
+        <item>Effsc</item>
+        <item>Dasco</item>
+    </string-array>
+
+</resources>
+
+

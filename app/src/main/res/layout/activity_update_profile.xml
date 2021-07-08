@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateProfile"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="118dp"
+            android:layout_height="91dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ic_account_circle_black_24dp" />
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:layout_marginStart="95dp"
+            android:background="@drawable/edit_text"
+            android:inputType="textPersonName"
+            android:hint="Enter your name"
+            android:gravity="center_horizontal"
+            android:textColorHint="#FFF"
+            app:layout_constraintTop_toBottomOf="@+id/tvHeading" />
+
+        <EditText
+            android:id="@+id/edtSurname"
+            android:layout_marginStart="95dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:background="@drawable/edit_text"
+            android:inputType="textPersonName"
+            android:hint="Enter your surname"
+            android:gravity="center_horizontal"
+            android:textColorHint="#FFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edtName" />
+
+        <Spinner
+            android:id="@+id/sCampus"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="85dp"
+            android:background="@drawable/edit_text"
+            android:textColor="#FFF"/>
+
+        <Spinner
+            android:id="@+id/sFaculty"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="85dp"
+            android:background="@drawable/edit_text"
+            android:textColor="#FFF" />
+
+        <Spinner
+            android:id="@+id/sDepart"
+            android:layout_width="250dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text"
+            android:layout_marginStart="85dp"
+            android:textColor="#FFF"/>
+        <Spinner
+            android:id="@+id/sYear"
+            android:layout_width="250dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text"
+            android:layout_marginStart="85dp"
+            android:textColor="#FFF"/>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginStart="95dp"
+            android:textColorHint="#FFF"
+            android:ems="10"
+            android:hint="Enter your new password"
+            android:background="@drawable/edit_text"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edtEmail" />
+
+        <EditText
+            android:id="@+id/etRePassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:layout_marginStart="95dp"
+            android:background="@drawable/edit_text"
+            android:inputType="textPassword"
+            android:hint="Please confirm password"
+            android:textColorHint="#FFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edtPassword" />
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button_1"
+            android:text="Save"
+            android:layout_marginTop="15dp" />
+
+    </LinearLayout>
+
+
+</ScrollView>

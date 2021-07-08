@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadVideo"
+    android:padding="20dp"
+    android:background="@drawable/your_vote">
+
+    <TextView
+        android:id="@+id/tvUpload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1dp"
+        android:text="Enter your url for video here"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btnSaveUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnPlayVideo"
+        android:layout_marginTop="0dp"
+        android:onClick="onUpload"
+        android:text="Save Url"
+        android:layout_centerHorizontal="true"/>
+
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/video"
+        android:layout_below="@id/tvUpload"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnPlayVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Video"
+        android:onClick="onUpload"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/video"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
